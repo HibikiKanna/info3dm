@@ -23,3 +23,6 @@ print(model.theta)
 
 #ver.3
 print(model.preddict(X))
+
+#ver.4
+print(model.score(X,Y))

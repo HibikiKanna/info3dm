@@ -23,3 +23,8 @@ class LunerRegression:
     #ver.3
     def preddict(self,x):
         return np.dot(x,self.theta)
+    
+    #ver.4
+    def score(self,x,y):
+        error = self.preddict(x) - y
+        return (error**2).sum()
