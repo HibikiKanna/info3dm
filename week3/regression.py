@@ -13,3 +13,9 @@ class LunerRegression:
 
     def score(self,x,y):
         pass
+
+    #ver.2
+
+    def fit(self,x,y):
+        temp = np.linalg.inv(np.dot(x.T,x))
+        self.theta = np.dot(np.dot(temp,x.T),y)
