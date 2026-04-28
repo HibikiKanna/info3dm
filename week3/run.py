@@ -20,3 +20,6 @@ importlib.reload(regression)
 model = regression.LunerRegression()
 model.fit(X,Y)
 print(model.theta)
+
+#ver.3
+print(model.preddict(X))
