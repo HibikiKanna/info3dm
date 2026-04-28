@@ -1,0 +1,15 @@
+#ver.1
+import numpy as np
+class LunerRegression:
+    x = None
+    theta = None
+    y = None
+
+    def fit(self,x,y):
+        pass
+
+    def preddict(self,x):
+        pass
+
+    def score(self,x,y):
+        pass
